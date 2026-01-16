@@ -1,0 +1,49 @@
+{
+  "skills": [
+    {
+      "name": "mv3-service-worker",
+      "description": "Service Worker 后台服务开发（定时任务、事件监听、API代理、标签页管理）",
+      "keywords": ["service worker", "background", "alarms", "定时任务", "后台", "tabs", "标签页"],
+      "path": "mv3-service-worker/SKILL.md"
+    },
+    {
+      "name": "mv3-messaging",
+      "description": "扩展组件间消息通信（一次性消息、长连接Port、广播、Plasmo Messaging）",
+      "keywords": ["messaging", "消息", "sendMessage", "port", "connect", "通信", "onMessage", "plasmo", "sendToBackground", "relay"],
+      "path": "mv3-messaging/SKILL.md"
+    },
+    {
+      "name": "mv3-storage",
+      "description": "数据存储（chrome.storage、IndexedDB、Plasmo useStorage Hook）",
+      "keywords": ["storage", "存储", "local", "sync", "session", "indexeddb", "缓存", "plasmo", "useStorage", "watch"],
+      "path": "mv3-storage/SKILL.md"
+    },
+    {
+      "name": "mv3-content-script",
+      "description": "Content Script 页面脚本（DOM操作、数据提取、MAIN世界、Plasmo CSUI）",
+      "keywords": ["content script", "dom", "页面", "注入", "world", "main", "isolated", "bridge", "plasmo", "csui", "shadow dom", "getInlineAnchor"],
+      "path": "mv3-content-script/SKILL.md"
+    },
+    {
+      "name": "mv3-module-loading",
+      "description": "模块化与懒加载（ES Modules、动态import、Hash路由）",
+      "keywords": ["module", "模块", "import", "懒加载", "路由", "router", "lazy"],
+      "path": "mv3-module-loading/SKILL.md"
+    },
+    {
+      "name": "mv3-cross-origin",
+      "description": "跨域请求（Content Script Bridge、declarativeNetRequest、web_accessible_resources）",
+      "keywords": ["跨域", "cors", "cross-origin", "bridge", "cookie", "declarativeNetRequest", "web_accessible"],
+      "path": "mv3-cross-origin/SKILL.md"
+    },
+    {
+      "name": "mv3-offscreen",
+      "description": "Offscreen Document API（剪贴板、DOM解析、音视频播放）",
+      "keywords": ["offscreen", "clipboard", "剪贴板", "dom解析", "audio", "geolocation"],
+      "path": "mv3-offscreen/SKILL.md"
+    }
+  ],
+  "meta": {
+    "plasmo_note": "Plasmo 框架内容已合并到相关 MV3 技能中：CSUI→mv3-content-script, Messaging→mv3-messaging, Storage→mv3-storage"
+  }
+}

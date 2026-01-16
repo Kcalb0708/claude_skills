@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "name": "chrome-extension-mv3",
+      "description": "Chrome Extension Manifest V3 开发技能集",
+      "path": "chrome-extension-mv3/skills.json",
+      "keywords": ["chrome", "extension", "扩展", "mv3", "manifest", "plasmo"]
+    },
+    {
+      "name": "code-to-docs",
+      "description": "基于代码生成文档，分析模块结构、复用性与重构边界",
+      "path": "code-to-docs/SKILL.md",
+      "keywords": ["文档", "docs", "readme", "架构", "模块", "重构", "复用", "代码驱动"]
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-14",
+    "location": "C:\\Users\\WINDOWS\\.claude\\skills"
+  }
+}
